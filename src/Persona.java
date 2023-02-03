@@ -14,5 +14,9 @@ public class Persona {
     private int cumpleanios() {
     	return this.edad +1;
     }
+
+	public String datosPersona() {
+		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]";
+	}
    
 }
